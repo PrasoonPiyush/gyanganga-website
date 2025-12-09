@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — GyanGanga</title>
+  <meta name="description" content="Reach out to GyanGanga for feedback, questions, or collaboration." />
+  <link rel="stylesheet" href="/src/styles/style.css">
+  <link rel="icon" type="/image/x-icon" href="/src/assets/icons/favicon.ico">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <!-- Shared header -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="/docs/index.html">
+        <picture>
+          <source srcset="/src/assets/icons/logo-dark.png" media="(prefers-color-scheme: dark)">
+          <img src="/src/assets/icons/logo-light.png" alt="GyanGanga logo" class="logo">
+        </picture>        
+        <span class="brand-name">GyanGanga</span>
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="/docs/index.html">Home</a></li>
+          <li><a href="/src/pages/courses.html">Courses</a></li>
+          <li><a href="/src/pages/debates.html">Debates</a></li>
+          <li><a href="/src/pages/mocktest.html">Mock Test</a></li>
+          <li><a href="/src/pages/about.html">About</a></li>
+          <li><a href="/src/pages/signin.html">Sign In</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page content -->
+  <main id="main-content" class="container" style="padding: 32px 0;">
+    <h1>Contact Us</h1>
+    <p>We'd love to hear from you. Whether it's feedback, questions, or collaboration, reach out anytime.</p>
+
+    <!-- TODO: Replace action with real Formspree/Google Forms link -->
+    <form action="#" method="POST" style="margin-top: 16px;">
+      <label for="name">Name</label><br>
+      <input id="name" type="text" name="name" aria-label="Your full name" required><br><br>
+
+      <label for="email">Email</label><br>
+      <input id="email" type="email" name="email" aria-label="Your email address" required><br><br>
+
+      <label for="message">Message</label><br>
+      <textarea id="message" name="message" rows="5" aria-label="Your message" required></textarea><br><br>
+
+      <button class="btn primary" type="submit">Send</button>
+    </form>
+
+    <p style="margin-top:10px;color:#5A5A5A;">We'll get back to you as soon as possible.</p>
+
+    <section id="privacy-note">
+      <h2>Privacy Note</h2>
+      <p>
+        We value your trust. Any personal information submitted through this page will be handled with strict confidentiality, used solely to address your inquiry, and safeguarded in accordance with our privacy practices.
+      </p>
+    </section>
+
+    <p style="margin-top:10px;color:#5A5A5A;">TODO: Add support email here.</p>
+  </main>
+
+  <!-- Shared footer -->
+  <footer class="site-footer">
+    <div class="container footer-content"><p>© 2025 GyanGanga.</p></div>
+  </footer>
+
+  <script src="/src/scripts/script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://prasoonpiyush.github.io/gyanganga-website/docs/sitemap.xml

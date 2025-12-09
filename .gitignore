@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+# Builds
+dist/
+build/
+# Logs & caches
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+.cache/
+
+# OS/Editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Misc
+coverage/
