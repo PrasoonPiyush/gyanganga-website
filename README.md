@@ -14,8 +14,10 @@ It offers structured courses, interactive mock tests, and thought‑provoking de
 - 🌐 Inclusive, accessible design with responsive layouts
 
 ## Structure
-- `src/` → source files (styles, scripts, assets, pages)
-- `docs/` → deployment entry and SEO files
+- `assets/` → images, icons, favicon, thumbnail files
+- `docs/` → source files (pages), deployment entry and SEO files
+- `scripts/` → script/s file/s (*.js files)
+- `styles/` → styling file/s (*.css files)
 - `.github/` → issue and pull request templates
 - Root files → README, LICENSE, .gitignore, contributing docs
 
